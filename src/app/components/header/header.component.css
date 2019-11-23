@@ -1,0 +1,13 @@
+.navigation{
+  justify-content: space-between;
+}
+
+a{
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: underline;
+}
