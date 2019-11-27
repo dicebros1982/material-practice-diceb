@@ -3,6 +3,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 import { CoreModule } from "./modules/core/core.module";
 import { RoutesModule } from "./modules/routes/routes.module";
+import { JwPaginationComponent } from "jw-angular-pagination";
 
 import { AppComponent } from "./app.component";
 import { PostsService } from "./services/posts.service";
@@ -18,7 +19,8 @@ import { HomeComponent } from "./pages/home/home.component";
     PostsListComponent,
     HeaderComponent,
     PostsComponent,
-    HomeComponent
+    HomeComponent,
+    JwPaginationComponent
   ],
   bootstrap: [AppComponent],
   providers: [PostsService]
